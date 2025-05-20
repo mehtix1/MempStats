@@ -25,6 +25,7 @@ Install dependencies with:
 ```bash
 pip install requests matplotlib colorama
 ```
+## 🛠️ Usage
 ```bash
 python 1.py [OPTIONS]
 ```
