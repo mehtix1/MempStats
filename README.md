@@ -24,3 +24,14 @@ Install dependencies with:
 
 ```bash
 pip install requests matplotlib colorama
+```
+```bash
+python 1.py [OPTIONS]
+```
+| Option            | Description                                                |
+| ----------------- | ---------------------------------------------------------- |
+| `--version_stat`  | Show pie chart of transaction versions (1 and 2 only)      |
+| `--type_stat`     | Show pie chart of output script types                      |
+| `--averagefee`    | Display the average fee of collected transactions (sats)   |
+| `--averagevalue`  | Display the average value of outputs (sats)                |
+| `--duration SECS` | Set how many seconds to collect mempool data (default: 20) |
